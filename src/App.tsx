@@ -1,12 +1,16 @@
 import React, { useState } from 'react'
 
+
 function App() {
-  const [count, setCount] = useState(0)
+ 
+ { React }
+const {} = useState()
+
 
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold">Hello, Welcome to Sorex!</h1>
-      <p className="text-lg">Count: {count}</p>
+      <h1 className="text-2xl font-bold text-center">Hello, Welcome to Sorex!</h1>
+      <p className="text-lg">La Mejor ropa de Venezuela, Representando  mi País </p>
       
     </div>
   )
