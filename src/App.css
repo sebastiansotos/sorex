@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* Estilo base para el logo */
-.logo-sorex {
+.Logo-Sorex {
   max-width: 300px;
   height: auto;
   transition: transform 0.3s ease; /* Esto hace que el cambio sea suave */
