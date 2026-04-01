@@ -1,3 +1,14 @@
 @import "tailwindcss";
 
+/* Estilo base para el logo */
+.logo-sorex {
+  max-width: 300px;
+  height: auto;
+  transition: transform 0.3s ease; /* Esto hace que el cambio sea suave */
+  cursor: pointer;
+}
 
+/* Efecto al pasar el mouse */
+.logo-sorex:hover {
+  transform: scale(1.1); /* Agranda el logo un 10% */
+}
