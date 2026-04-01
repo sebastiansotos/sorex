@@ -1,14 +1,27 @@
 @import "tailwindcss";
 
-/* Estilo base para el logo */
-.Logo-Sorex {
-  max-width: 300px;
-  height: auto;
-  transition: transform 0.3s ease; /* Esto hace que el cambio sea suave */
+.boton-logo {
+  background: none;
+  border: none;
+  padding: 0;
   cursor: pointer;
+  transition: transform 0.3s ease; /* La clave del suavizado */
+  outline: none;
 }
 
-/* Efecto al pasar el mouse */
-.logo-sorex:hover {
-  transform: scale(1.1); /* Agranda el logo un 10% */
+.boton-logo:hover {
+  transform: scale(1.1); /* Se agranda un 10% */
+}
+
+.boton-logo:active {
+  transform: scale(0.95); /* Se encoge un poquito al hacer clic (efecto botón) */
+}
+
+.seccion-productos {
+  height: 100vh; /* Para que puedas notar el scroll */
+  background-color: #ffffff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
