@@ -23,7 +23,7 @@ function App() {
         
         {/* Título con efecto Glitch al pasar el mouse */}
         <h1 className="titulo-glitch" style={{ marginBottom: '10px' }}>
-          𝘏𝘦𝘭𝘭𝘰, 𝘞𝘦𝘭𝘤𝘰𝘮𝘦 𝘵𝘰 𝘚𝘰𝘳𝘦𝘹
+          𝘏𝘦𝘭𝘭𝘰 𝘞𝘦𝘭𝘤𝘰𝘮𝘦 𝘵𝘰 𝘚𝘰𝘳𝘦𝘹
         </h1>
 
         <p style={{ marginBottom: '40px' }}>𝘓𝘢 𝘔𝘦𝘫𝘰𝘳 𝘳𝘰𝘱𝘢 𝘥𝘦 𝘝𝘦𝘯𝘦𝘻𝘶𝘦𝘭𝘢 🇻🇪, 𝘙𝘦𝘱𝘳𝘦𝘴𝘦𝘯𝘵𝘢𝘯𝘥𝘰 𝘮𝘪 𝘗𝘢í𝘴</p> 
