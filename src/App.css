@@ -5,7 +5,6 @@
   margin: auto;
   padding: 0;
   width: auto;
-  overflow-x: hidden; /* Evita que la página se mueva hacia los lados */
   background-color: #000; /* Fondo base negro */
 }
 
