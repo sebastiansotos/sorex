@@ -40,7 +40,7 @@
 }
 
 /* Animación de parpadeo de colores */
-.titulo-glitch:hover {
+.titulo-glitch {
   animation: glitch-anim 0.3s infinite;
   cursor: default;
 }
