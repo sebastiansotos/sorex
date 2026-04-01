@@ -1,3 +1,6 @@
+import './App.css'
+
+
 function App() {
   return (
     <div style={{ 
@@ -9,12 +12,12 @@ function App() {
       textAlign: 'center'
     }}>
       {/* El texto se queda arriba */}
-      <h1>𝘓𝘢 𝘔𝘦𝘫𝘰𝘳 𝘳𝘰𝘱𝘢 𝘥𝘦 𝘝𝘦𝘯𝘦𝘻𝘶𝘦𝘭𝘢 🇻🇪</h1>
-      <p>𝘓𝘢 𝘔𝘦𝘫𝘰𝘳 𝘳𝘰𝘱𝘢 𝘥𝘦 𝘝𝘦𝘯𝘦𝘻𝘶𝘦𝘭𝘢 🇻🇪, 𝘙𝘦𝘱𝘳𝘦𝘴𝘦𝘯𝘵𝘢𝘯𝘥𝘰 𝘮𝘪 𝘗𝘢í𝘴</p>
+      <h1 className='Color="Black"'>𝘓𝘢 𝘔𝘦𝘫𝘰𝘳 𝘳𝘰𝘱𝘢 𝘥𝘦 𝘝𝘦𝘯𝘦𝘻𝘶𝘦𝘭𝘢 🇻🇪</h1>
+      <p  className='Color="Black"'>𝘓𝘢 𝘔𝘦𝘫𝘰𝘳 𝘳𝘰𝘱𝘢 𝘥𝘦 𝘝𝘦𝘯𝘦𝘻𝘶𝘦𝘭𝘢 🇻🇪, 𝘙𝘦𝘱𝘳𝘦𝘴𝘦𝘯𝘵𝘢𝘯𝘥𝘰 𝘮𝘪 𝘗𝘢í𝘴</p>
       
       {/* Tu logo en el medio */}
       <img 
-        src="Logo.svg" 
+        src="/Logo.svg" 
         alt="Logo Sorex" 
         style={{ width: '200px', marginTop: '20px' }} 
       />
