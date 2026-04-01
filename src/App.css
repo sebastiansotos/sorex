@@ -2,9 +2,9 @@
 
 /* FUERZA QUE NO HAYA BORDES EN LA PANTALLA */
 :root, body {
-  margin: 0;
+  margin: auto;
   padding: 0;
-  width: 100%;
+  width: auto;
   overflow-x: hidden; /* Evita que la página se mueva hacia los lados */
   background-color: #000; /* Fondo base negro */
 }
@@ -24,7 +24,7 @@
 }
 
 .logo-loading {
-  width: 250px;
+  width: 550px;
   clip-path: inset(0 100% 0 0);
   /* Animación rápida de 1 segundo */
   animation: reveal-logo 1s ease-in-out forwards; 
