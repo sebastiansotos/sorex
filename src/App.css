@@ -7,6 +7,7 @@ html, body {
   width: 100% !important;
   height: 100% !important;
   background-color: #000;
+  /* BLOQUEO TOTAL INICIAL */
   overflow: hidden !important; 
   touch-action: none; 
 }
@@ -19,7 +20,7 @@ html, body {
 .loader-container {
   position: fixed;
   inset: 0;
-  background-color: #000;
+  background-color: #000; /* Negro para evitar flash blanco */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,34 +29,39 @@ html, body {
 
 .logo-loading {
   width: 300px;
-  /* FUERZA EL COLOR BLANCO EN EL SVG */
-  filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1); /* Logo Blanco */
   clip-path: inset(0 100% 0 0);
   animation: reveal-logo 1s ease-in-out forwards;
 }
 
-/* 3. HERO */
+/* 3. HERO (CENTRADO CORREGIDO) */
 .bg-hero-animado {
   width: 100% !important;
-  height: 100dvh;
+  height: 100dvh; 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center; /* Asegura centrado de textos */
   gap: 40px; 
   background: linear-gradient(-45deg, #0a0a0a, #000, #111, #000);
   background-size: 400% 400%;
   animation: gradient-bg 15s ease infinite;
 }
 
+.contenedor-texto-hero {
+  padding: 0 20px;
+  width: 100%;
+  max-width: 900px;
+}
+
 .descripcion-hero {
-  color: #a1a1a1;
+  color: #a1a1a1; 
   margin-top: 25px;
   font-size: 1.2rem;
-  max-width: 650px;
+  line-height: 1.6;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.6;
 }
 
 .titulo-glitch {
@@ -63,15 +69,14 @@ html, body {
   font-weight: 900;
   color: white;
   animation: glitch-anim 0.4s infinite;
-  text-align: center;
+  margin: 0;
 }
 
-/* 4. LOGO BLANCO CON BRILLO */
+/* 4. LOGO BLANCO CON BRILLO (GLOW) */
 .logo-main {
   width: 280px;
   height: auto;
   display: block;
-  /* FILTRO PARA BLANCO PURO Y GLOW */
   filter: brightness(0) invert(1) drop-shadow(0 0 12px rgba(255,255,255,0.2));
   transition: all 0.4s ease;
 }
@@ -80,12 +85,11 @@ html, body {
   background: none !important;
   border: none !important;
   cursor: pointer;
-  outline: none;
 }
 
 .boton-logo:hover .logo-main {
   transform: scale(1.1);
-  filter: brightness(0) invert(1) drop-shadow(0 0 20px rgba(255,255,255,0.5));
+  filter: brightness(0) invert(1) drop-shadow(0 0 20px rgba(255,255,255,0.4));
 }
 
 /* 5. SECCIÓN PRODUCTOS */
