@@ -28,7 +28,7 @@ html, body {
 }
 
 .logo-loading {
-  width: 335px;
+  width: 380px;
   filter: brightness(0) invert(1); /* FUERZA LOGO BLANCO */
   clip-path: inset(0 100% 0 0);
   animation: reveal-logo 1s ease-in-out forwards;
