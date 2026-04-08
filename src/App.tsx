@@ -44,7 +44,8 @@ function App() {
           <img 
             src="/Logo.svg" 
             alt="Logo Sorex" 
-            className="logo-main" 
+            className="logo-main"
+            style={{color: '#fff'}} 
           />
         </button>
 
